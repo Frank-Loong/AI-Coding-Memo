@@ -5,22 +5,14 @@
       "args": [
         "mcp-feedback-enhanced@latest"
       ]
-    }
-  }
-}
-{
-  "mcpServers": {
+    },
     "playwright": {
       "command": "npx",
       "args": [
         "-y",
         "@executeautomation/playwright-mcp-server"
       ]
-    }
-  }
-}
-{
-  "mcpServers": {
+    },
     "shrimp-task-manager": {
       "command": "npx",
       "args": [
@@ -28,42 +20,30 @@
         "mcp-shrimp-task-manager"
       ],
       "env": {
-        "DATA_DIR": "c:\\Users\\25290\\.cursor\\mcp-shrimp-task-manager\\data",
+        "DATA_DIR": "shrimp-data",
         "TEMPLATES_USE": "en",
         "ENABLE_GUI": "false"
       }
-    }
-  }
-}
-{
-  "mcpServers": {
-    "desktop-commander": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@wonderwhy-er/desktop-commander"
-      ]
-    }
-  }
-}
-{
-  "mcpServers": {
+    },
     "sequential-thinking": {
       "command": "npx",
       "args": [
         "-y",
         "@zengwenliang/mcp-server-sequential-thinking"
       ]
-    }
-  }
-}
-{
-  "mcpServers": {
+    },
     "Context7": {
       "command": "npx",
       "args": [
         "-y",
         "@upstash/context7-mcp@latest"
+      ]
+    },
+    "desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander"
       ]
     }
   }
